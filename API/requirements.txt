@@ -1,0 +1,7 @@
+Flask
+ultralytic
+numpy
+opencv-python
+scikit-learn
+scikit-image
+flask-cors

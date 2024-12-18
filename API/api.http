@@ -1,0 +1,17 @@
+@API_HostAddress = http://127.0.0.1:5000
+### Try de API
+GET {{API_HostAddress}}/
+
+
+###Get de map of the parking
+### Enviar video con un threshold específico
+POST http://127.0.0.1:5000/getMap?threshold=0.7
+Content-Type: multipart/form-data
+
+--boundary
+Content-Disposition: form-data; name="video"; filename="parking_lot4.mp4"
+Content-Type: video/mp4
+
+< ./parking_lot4.mp4
+--boundary--
+
