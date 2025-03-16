@@ -1,0 +1,14 @@
+.parking-container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.input-params{
+    max-width: 50px;
+}
+button{
+    background-color: unset;
+}
+button img{
+    height: 30px;
+}
